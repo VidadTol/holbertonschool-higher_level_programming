@@ -1,4 +1,7 @@
-Python - if/else, loops, functions
+<div style="text-align: center;">
+  <h1 style="color: #1E90FF;">Python - if/else, loops, functions</h1>
+</div>
+
 ![alt text](image.png)
 
 General
@@ -16,19 +19,19 @@ What is a function and how do you use functions
 What does return a function that does not use any return statement  
 Scope of variables  
 What’s a traceback  
-What are the arithmetic operators and how to use them  
+What are the arithmetic operators and how to use them
 
 Requirements
 
 Python Scripts
 
 Allowed editors: vi, vim, emacsPython - if/else, loops, functions  
-All your files will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.8.*)  
+All your files will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.8._)  
 All your files should end with a new line  
 The first line of all your files should be exactly #!/usr/bin/python3  
 A README.md file, at the root of the folder of the project, is mandatory  
-Your code should use the pycodestyle (version 2.7.*)  
+Your code should use the pycodestyle (version 2.7._)  
 All your files must be executable  
-The length of your files will be tested using wc  
+The length of your files will be tested using wc
 
 [def]: code.png
