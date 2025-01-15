@@ -1,5 +1,5 @@
-<div style="text-align: center;">
-  <h1 style="color: #1E90FF;">Python - if/else, loops, functions</h1>
+<div align= "center">
+  <h1>Python - if/else, loops, functions</h1>
 </div>
 
 ![alt text](image.png)
