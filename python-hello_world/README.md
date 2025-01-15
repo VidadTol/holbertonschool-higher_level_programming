@@ -1,6 +1,5 @@
-python-hello_world
-<div style="text-align: center;">
-  <h1 style="color: #1E90FF;">Python - hello_world</h1>
+<div align= "center">
+  <h1>Python - hello_world</h1>
 </div>
 
 General  
