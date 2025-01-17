@@ -1,4 +1,6 @@
-## Python - import & modules
+<div align= "center">
+  <h1>## Python - import & modules</h1>
+</div>
 
 # General
 
