@@ -5,19 +5,19 @@
 # General
 
 Why Python programming is awesome  
-    Python is easy to learn, read, and write. It is versatile and used in many fields such as web development, data science, and automation. It also has a large community and numerous libraries.  
+    - Python is easy to learn, read, and write. It is versatile and used in many fields such as web development, data science, and automation. It also has a large community and numerous libraries.  
 How to import functions from another file  
-    Use the import statement to import functions from another file.  
+    - Use the import statement to import functions from another file.  
 How to use imported functions  
-    Use the imported functions as if they were defined in your script.  
+    - Use the imported functions as if they were defined in your script.  
 How to create a module  
-    A module is simply a Python file with the .py extension.  
+    - A module is simply a Python file with the .py extension.  
 How to use the built-in function dir()  
-    dir() The dir() function returns a list of names defined in a module or object.  
+    - dir() The dir() function returns a list of names defined in a module or object.  
 How to prevent code in your script from being executed when imported  
-    Use if __name__ == "__main__": to run code only if the script is executed directly.  
+    - Use if __name__ == "__main__": to run code only if the script is executed directly.  
 How to use command line arguments with your Python programs  
-    Use the sys module to access command line arguments.  
+    - Use the sys module to access command line arguments.  
 
 # Requirements
 
