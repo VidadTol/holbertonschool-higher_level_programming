@@ -1,5 +1,5 @@
 <div align= "center">
-  <h1>## Python - import & modules</h1>
+  <h1>Python - import & modules</h1>
 </div>
 
 # General
