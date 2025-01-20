@@ -2,6 +2,8 @@
   <h1>Python - Data Structures: Lists, Tuples</h1>
 </div>
 
+This repository features projects on Python data structures, such as lists and tuples, including various operations and manipulations.
+
 # General 
 
 ### What are lists and how to use them ?
@@ -47,17 +49,25 @@
 - A ```README.md``` file, at the root of the folder of the project, is mandatory
 - Your code should use the pycodestyle (version 2.7.*)
 - All your files must be executable
-- The length of your files will be tested using wc
+- The length of your files will be tested using wc  
+
 
 # Exercices
-### ```0. Print a list of integers```
-Write a function that prints all integers of a list.
 
-- Prototype: ```def print_list_integer(my_list=[]):```
-- Format: one integer per line. See example
-- You are not allowed to import any module
-- You can assume that the list only contains integers
-- You are not allowed to cast integers into strings
-- You have to use ```str.format()``` to print integers
+| Filename | Description |
+| -------- | ----------- |
+| `0-print_list_integer.py` | Prints all integers in a list. |
+| `1-element_at.py` | Retrieves an element from a list like in C. |
+| `2-replace_in_list.py` | Replaces an element of a list at a specific position. |
+| `3-print_reversed_list_integer.py` | Prints all integers of a list, in reverse order. |
+| `4-new_in_list.py` | Replaces an element in a list without modifying the original list. |
+| `5-no_c.py` | Removes all characters 'c' and 'C' from a string. |
+| `6-print_matrix_integer.py` | Prints a matrix of integers. |
+| `7-add_tuple.py` | Adds two tuples. |
+| `8-multiple_returns.py` | Returns the length of a string and its first character in a tuple. |
+| `9-max_integer.py` | Finds the biggest integer in a list. |
+| `10-divisible_by_2.py` | Finds all multiples of 2 in a list. |
+| `11-delete_at.py` | Deletes the item at a specific position in a list. |
+| `12-switch.py` | Switches the value of two variables. |
 
-###
+
