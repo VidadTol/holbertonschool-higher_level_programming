@@ -4,25 +4,25 @@
 
 # General 
 
-Why Python programming is awesome  
+### Why Python programming is awesome  
 *Python is easy to learn, read, and write. It is versatile and used in many fields such as web development, data science, and automation. It also has a large community and numerous libraries.*
 
-How to import functions from another file  
+### How to import functions from another file  
 *Use the import statement to import functions from another file.*
 
-How to use imported functions  
+### How to use imported functions  
 *Use the imported functions as if they were defined in your script.*
 
-How to create a module  
+### How to create a module  
 *A module is simply a Python file with the .py extension.*
 
-How to use the built-in function dir()  
+### How to use the built-in function dir()  
 *dir() The dir() function returns a list of names defined in a module or object.*
 
-How to prevent code in your script from being executed when imported  
+### How to prevent code in your script from being executed when imported  
 *Use if __name__ == "__main__": to run code only if the script is executed directly.*
     
-How to use command line arguments with your Python programs  
+### How to use command line arguments with your Python programs  
 *Use the sys module to access command line arguments.*
 
 # Requirements
@@ -96,7 +96,7 @@ Write a program that prints all the names defined by the compiled module ```hidd
 - Your code should not be executed when imported
 
 ### ```5. Everything can be imported```
-Write a program that imports the variable a from the file variable_load_5.py and prints its value.
+Write a program that imports the variable ```a``` from the file ```variable_load_5.py``` and prints its value.
 
-You are not allowed to use * for importing or __import__
+You are not allowed to use * for importing or ```__import__```
 Your code should not be executed when imported
