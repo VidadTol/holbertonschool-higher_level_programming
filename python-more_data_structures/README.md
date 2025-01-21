@@ -4,6 +4,12 @@
 
 The Python - Other Data Structures: Set, Dictionary repository presents projects on data structures in Python, specifically sets and dictionaries. It includes various operations and manipulations that allow to understand and exploit these data structures in an efficient way.
 
+# Resources
+
+* [Data Structures](https://docs.python.org/3/tutorial/datastructures.html)
+* [Lambda, filter, reduce and map](https://python-course.eu/advanced-python/lambda-filter-reduce-map.php)
+* [Learn to Program 12 Lambda Map Filter Reduce](https://www.youtube.com/watch?v=1GAC6KQUPeg)
+
 # General 
 
 ### Why Python programming is awesome ?  
