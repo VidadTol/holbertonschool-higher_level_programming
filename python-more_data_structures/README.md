@@ -92,3 +92,7 @@ A ```lambda function``` is a small anonymous function defined with the lambda ke
 | `10. Best score` | Returns a key with the biggest integer value. |
 | `11. Multiply by using map` | Returns a list with all values multiplied by a number without using any loops. |
 | `12. Roman to Integer` | Technical interview preparation |
+
+<p align="center">
+  <img src="https://i.imgur.com/J1oVLId.jpeg" name="logo Holberton"/>
+</p>
