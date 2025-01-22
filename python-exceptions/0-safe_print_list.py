@@ -6,7 +6,7 @@ def safe_print_list(my_list=[], x=0):
         while result < x:
             print(my_list[result], end="")
             result += 1
-        except IndexError:
-            pass
-        print()
-        return result
+    except IndexError:
+        pass
+    print()
+    return result
