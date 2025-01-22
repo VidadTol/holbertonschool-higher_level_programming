@@ -51,7 +51,7 @@ We need to implement a clean-up action after an exception when there are resourc
 | Filename | Description |
 | -------- | ----------- |
 | `0. Safe list printing` | That prints `x` elements of a list. |
-| `1. Safe printing of an integers list` |  That prints an integer with `"{:d}".format()`. |
+| `1. Safe printing of an integers list` | That prints an integer with `"{:d}".format()`. |
 | `2. Print and count integers` | That prints the first `x` elements of a list and only integers.|
 | `3. Integers division with debug` | That divides 2 integers and prints the result.|
 | `4. Divide a list` | That divides element by element 2 lists. |
