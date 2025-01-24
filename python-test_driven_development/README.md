@@ -69,6 +69,7 @@ Analyze the function's requirements to identify extreme values and special condi
 | `3. Print square` | That prints a square with the character #.|
 | `4. Text indentation` | That prints a text with 2 new lines after each of these characters: ., ? and : |
 | `5. Max integer - Unittest` | you will write unittests for the function def max_integer(list=[]):.|
+| `tests/` | Directory containing unit tests for each function. |
 
 <p align="center">
   <img src="https://i.imgur.com/J1oVLId.jpeg" name="logo Holberton"/>
