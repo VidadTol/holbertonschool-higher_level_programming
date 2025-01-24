@@ -2,15 +2,15 @@
   <h1>Python - Test-driven development</h1>
 </div>
 
-# Resources
+# Resources 👀
 
-👉 [doctest — Test interactive Python examples ](https://docs.python.org/3/library/doctest.html)  
-👉 [doctest – Testing through documentation ](https://pymotw.com/3/doctest/)  
-👉 [Unit Tests in Python](https://www.youtube.com/watch?v=1Lfv5tUGsn8)  
+ 👉 [doctest — Test interactive Python examples ](https://docs.python.org/3/library/doctest.html)  
+ 👉 [doctest – Testing through documentation ](https://pymotw.com/3/doctest/)  
+ 👉 [Unit Tests in Python](https://www.youtube.com/watch?v=1Lfv5tUGsn8)  
 
 
 
-General
+# General
 
 ### Why is Python programming awesome?
 Python is awesome because of its simple syntax, versatility in various fields (web, AI, data science), vast community, and rich libraries.
@@ -34,7 +34,7 @@ Basic options include using unittest, doctest, and pytest to write and execute t
 Analyze the function's requirements to identify extreme values and special conditions that might cause issues.
 
 
-# Requirements
+# Requirements 
 
 #### Python Scripts
 
@@ -70,6 +70,7 @@ Analyze the function's requirements to identify extreme values and special condi
 | `4. Text indentation` | That prints a text with 2 new lines after each of these characters: ., ? and : |
 | `5. Max integer - Unittest` | you will write unittests for the function def max_integer(list=[]):.|
 | `tests/` | Directory containing unit tests for each function. |
+
 
 <p align="center">
   <img src="https://i.imgur.com/J1oVLId.jpeg" name="logo Holberton"/>
