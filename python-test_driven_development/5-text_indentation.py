@@ -32,4 +32,4 @@ def text_indentation(text):
             continue
         i += 1
 
-        print(new_text, end="")
+    print(new_text, end="")
