@@ -20,7 +20,8 @@ def matrix_divided(matrix, div):
                    if rows are not of the same size, or if div is not a number.
         ZeroDivisionError: If div is 0.
     """
-
+    if matrix is None:
+        raise TypeError("'NoneType' object is not iterable")
     if not isinstance(matrix, list):
         raise TypeError(
             "matrix must be a matrix (list of lists) of integers/floats")
