@@ -30,7 +30,7 @@ Traceback (most recent call last):
 TypeError: matrix must be a matrix (list of lists) of integers/floats
 
 # div must be a number (integer or float)
->>> matrix_divided([[1, 2], [3, 4]], '2')
+>>> matrix_divided([[1, 2], [3, 4]], 'x')
 Traceback (most recent call last):
     ...
 TypeError: div must be a number
