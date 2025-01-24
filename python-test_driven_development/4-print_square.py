@@ -2,6 +2,7 @@
 
 """Module for print_square"""
 
+
 def print_square(size):
     """Prints a square with the character #.
     Args:
@@ -17,4 +18,3 @@ def print_square(size):
         raise ValueError("size must be >= 0")
     for i in range(size):
         print("#" * size)
-        
