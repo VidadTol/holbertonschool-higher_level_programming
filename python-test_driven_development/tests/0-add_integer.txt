@@ -23,7 +23,7 @@ Test cases for add_integer function
 
 # Adding float to float
 >>> add_integer(4.4, 2.6)
-7
+6
 
 # Adding number to string
 >>> add_integer(9, "Code")
