@@ -3,7 +3,7 @@
 Test cases for matrix_divided function
 """
 
->>> matrix_divided = __import__('matrix_divided').matrix_divided
+>>> matrix_divided = __import__('2-matrix_divided').matrix_divided
 
 # Dividing each element of the matrix by a positive number
 >>> matrix_divided([[1, 2], [3, 4]], 2)
