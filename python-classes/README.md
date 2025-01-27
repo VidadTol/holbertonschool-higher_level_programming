@@ -103,7 +103,8 @@ The length of your files will be tested using wc
 | `3. Area of a square` | Write a class Square that defines a square by: (based on 2-square.py)|
 | `4. Access and update private attribute` | Write a class Square that defines a square by: (based on 3-square.py) |
 | `5. Printing a square` | Write a class Square that defines a square by: (based on 4-square.py)|
-| `6. Coordinates of a square` | Directory containing unit tests for each function. |
+| `6. Coordinates of a square` | Write a class Square that defines a square by: (based on 5-square.py) |
+
 
 
 <p align="center">
