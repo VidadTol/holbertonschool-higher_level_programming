@@ -1,24 +1,17 @@
 #!/usr/bin/python3
 """
-This module defines a class Square that represents a square.
+This module defines a class Square
 """
 
 
 class Square:
     """
-    A class used to represent a Square.
-    ...
-    Attributes
-    ----------
-    __size : int 
-    The size of one side of the square
+    Private instance attribute: size Instantiation with size
+    (no type/value verification)
+    You are not allowed to import any module same thing as before
+The Square class includes a private instance attribute size without type
+or value checking at instantiation. It is initialized with an optional
+size parameter via __init__(self, size)
     """
     def __init__(self, size):
-        """
-        Initializes the Square with the given size.
-        Parameters
-        ----------
-        size : int 
-        The size of one side of the square.
-        """
         self.__size = size
