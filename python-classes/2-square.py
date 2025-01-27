@@ -2,23 +2,19 @@
 
 class Square:
     """
-    This module defines a class Square that represents a square.
-"""
+    This is a class named Square with a private instance attribute
+    """
 
     def __init__(self, size=0):
-        """"
-        Initializes a new Square instance.
+        """
+        The constructor of the Square class
 
-        Parameters
-        ----------
-        size : int, optional
-            The size of one side of the square (default is 0).
-            Must be an integer and greater than or equal to 0.
+        Args:
+            size (int): The size of the square
 
-        Raises
-        ------
-        TypeError: If size is not an integer.
-        ValueError: If size is less than 0.
+        Raises:
+            TypeError: If size is not an integer
+            ValueError: If size is less than 0
         """
         if not isinstance(size, int):
             raise TypeError("size must be an integer")
