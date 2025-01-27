@@ -97,12 +97,12 @@ The length of your files will be tested using wc
 
 | Filename | Description |
 | -------- | ----------- |
-| `0. My first square` | Write an empty class Square that defines a square:. |
-| `1. Square with size` | Write a class Square that defines a square by: (based on 0-square.py) |
-| `2. Size validation` | Write a class Square that defines a square by: (based on 1-square.py)|
-| `3. Area of a square` | Write a class Square that defines a square by: (based on 2-square.py)|
-| `4. Access and update private attribute` | Write a class Square that defines a square by: (based on 3-square.py) |
-| `5. Printing a square` | Write a class Square that defines a square by: (based on 4-square.py)|
+| `0. My first square` | Defines an empty class Square. |
+| `1. Square with size` | Defines a class Square with a private instance attribute size. |
+| `2. Size validation` | Defines a class Square with input validation for size to ensure it is an integer and greater than or equal to 0.|
+| `3. Area of a square` | Adds a public instance method area() that returns the current square area.|
+| `4. Access and update private attribute` | Adds property methods to get and set the private size attribute with proper validation.|
+| `5. Printing a square` | Adds a method my_print() that prints the square with the # character or an empty line if size is 0.|
 | `6. Coordinates of a square` | Write a class Square that defines a square by: (based on 5-square.py) |
 
 
