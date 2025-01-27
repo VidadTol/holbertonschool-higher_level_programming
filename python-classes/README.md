@@ -103,7 +103,7 @@ The length of your files will be tested using wc
 | `3. Area of a square` | Adds a public instance method area() that returns the current square area.|
 | `4. Access and update private attribute` | Adds property methods to get and set the private size attribute with proper validation.|
 | `5. Printing a square` | Adds a method my_print() that prints the square with the # character or an empty line if size is 0.|
-| `6. Coordinates of a square` | Write a class Square that defines a square by: (based on 5-square.py) |
+| `6. Coordinates of a square` | Adds a private instance attribute position and updates my_print() to print the square at a given position using spaces.|
 
 
 
