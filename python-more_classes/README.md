@@ -127,14 +127,14 @@ The length of your files will be tested using wc
 | -------- | ----------- |
 | `0. Simple rectangle` | Defines an empty class Rectangle. |
 | `1. Real definition of a rectangle` | Defines a class Rectangle with private instance attributes width and height, with validation. |
-| `2. Area and Perimeter` | Defines a class Rectangle with private instance attributes width and height, with validation.|
+| `2. Area and Perimeter` | Adds public methods area() and perimeter() to calculate the rectangle's area and perimeter.|
 | `3. String representation` | Adds __str__() method to print the rectangle using the # character|
 | `4. Eval is magic` | Adds __repr__() method to return a string representation of the rectangle for recreation.|
 | `5. Detect instance deletion` | Adds __del__() method to print a message when an instance of Rectangle is deleted.|
 | `6. How many instances` | Adds a public class attribute number_of_instances to track the number of instances created.|
 | `7. Change representation` | Adds a public class attribute print_symbol to define the symbol used to print the rectangle.|
 | `8. Compare rectangles` | Adds a static method bigger_or_equal() to return the bigger rectangle based on area.|
-| `9. Coordinates of a square` | Adds a class method square() to return a new Rectangle instance where width and height are equal.|
+| `9. A square is a rectangle` | Adds a class method square() to return a new Rectangle instance where width and height are equal.|
 
 <p align="center">
   <img src="https://i.imgur.com/J1oVLId.jpeg" name="logo Holberton"/>
