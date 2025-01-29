@@ -7,13 +7,15 @@
 class Rectangle:
     """
     This code creates a Rectangle class that defines a rectangle
-    with private attributes for width and height, validating their
-    assignment via properties and setters. The class should include
-    public methods to calculate the area and perimeter, display a visual
-    representation of the rectangle with the # character,
+    with private instance attributes for width and height, validating
+    them via properties and setters. The class should include public
+    class attributes: number_of_instances (initialized to 0 and modified
+    when objects are instantiated and deleted) and print_symbol
+    (initialized to # and used for string representation). The class should
+    also include public methods to calculate the area and perimeter, display a
+    visual representation of the rectangle with the symbol print_symbol,
     and provide a __repr__ method to return a string to recreate the instance.
-    Additionally, a "Bye rectangle..." message should be printed when the
-    instance is deleted.
+    A "Bye rectangle..." message should be printed when an instance is deleted.
     """
     number_of_instances = 0
     print_of_symbol = "#"
