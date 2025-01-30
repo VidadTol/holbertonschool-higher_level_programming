@@ -6,20 +6,20 @@
 
 class Rectangle:
     """
-    This code creates a Rectangle class that defines a rectangle
-    with private instance attributes for width and height, validating
-    their assignment via properties and setters. The class should
-    include public class attributes: number_of_instances
-    (initialized to 0, incremented on instantiation, and decremented
-    on deletion) and print_symbol (initialized to #, used for string
-    representation,and can be of any type). The class should also include
-    public methods to calculate the area and perimeter, display a visual
-    representation of the rectangle with the symbol print_symbol,
-    and provide a __repr__ method to return a string to recreate the instance.
-    A "Bye rectangle..." message should be printed when an instance is deleted.
-    Finally, a static method bigger_or_equal should compare two Rectangle
-    instances based on their area and return the larger of the two,
-    or rect_1 in case of equality.
+    The Rectangle class defines a rectangle with private instance
+    attributes for width and height, with properties and setters that
+    validate these values. Width and height must be integers and cannot
+    be negative. The class has public class attributes number_of_instances,
+    which is initialized to 0 and updated when instances are instantiated
+    and deleted, and print_symbol, initialized to # but can be any type.
+    Instances are created with optional widths and heights.The class
+    includes methods to calculate the area and perimeter, display the
+    rectangle with print_symbol , and provide a __repr__ method to
+    recreate an instance. A "Bye rectangle..." message is printed
+    when an instance is deleted. The static method bigger_or_equal
+    compares two rectangles based on their area and returns the larger
+    one or rect_1 if they are equal. The square class method creates
+    a new Rectangle instance with width and height equal to size
     """
     number_of_instances = 0
     print_of_symbol = "#"
