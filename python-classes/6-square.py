@@ -52,6 +52,7 @@ class Square:
     def my_print(self):
         if self.__size == 0:
             print()
+            return
         else:
         # print empty lines based on the position
             for _ in range(self.__position[1]):
