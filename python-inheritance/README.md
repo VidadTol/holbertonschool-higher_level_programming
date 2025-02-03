@@ -92,9 +92,9 @@ The first line of all your files should be exactly `#!/usr/bin/python3`
 | -------- | ----------- |
 | `0. Lookup` | Returns the list of available attributes and methods of an object. |
 | `1. My list` | Write a class MyList that inherits from list. |
-| `2. Area and Perimeter` | Adds public methods area() and perimeter() to calculate the rectangle's area and perimeter.|
-| `3. String representation` | Adds __str__() method to print the rectangle using the # character|
-| `4. Eval is magic` | Adds __repr__() method to return a string representation of the rectangle for recreation.|
+| `2. Exact same object` | Write a function that returns True if the object is exactly an instance of the specified class ; otherwise False.|
+| `3. Same class or inherit from` | Write a function that returns True if the object is an instance of, or if the object is an instance of a class that inherited from, the specified class ; otherwise False.|
+| `4. Only sub class of` | Write a function that returns True if an object inherits from a specified class; otherwise False.|
 | `5. Detect instance deletion` | Adds __del__() method to print a message when an instance of Rectangle is deleted.|
 | `6. How many instances` | Adds a public class attribute number_of_instances to track the number of instances created.|
 | `7. Change representation` | Adds a public class attribute print_symbol to define the symbol used to print the rectangle.|
