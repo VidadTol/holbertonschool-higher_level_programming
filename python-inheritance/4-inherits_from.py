@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Contains a function that checks if an object is an instance
+This module contains a function inherits_from that checks if an object is an instance
 of a class that inherited from the specified class.
 """
 
