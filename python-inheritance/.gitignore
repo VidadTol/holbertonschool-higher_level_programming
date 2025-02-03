@@ -1,0 +1,5 @@
+# Ignorer tout le dossier __pycache__
+__pycache__/
+
+# Ignorer tous les fichiers se terminant par -main.py
+*-main.py
