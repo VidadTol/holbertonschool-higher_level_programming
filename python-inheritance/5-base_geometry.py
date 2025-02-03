@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Write an empty class BaseGeometry
+This module definies an emply class BaseGeometry
 """
 
 
