@@ -95,11 +95,13 @@ The first line of all your files should be exactly `#!/usr/bin/python3`
 | `2. Exact same object` | Write a function that returns True if the object is exactly an instance of the specified class ; otherwise False.|
 | `3. Same class or inherit from` | Write a function that returns True if the object is an instance of, or if the object is an instance of a class that inherited from, the specified class ; otherwise False.|
 | `4. Only sub class of` | Write a function that returns True if an object inherits from a specified class; otherwise False.|
-| `5. Detect instance deletion` | Adds __del__() method to print a message when an instance of Rectangle is deleted.|
-| `6. How many instances` | Adds a public class attribute number_of_instances to track the number of instances created.|
-| `7. Change representation` | Adds a public class attribute print_symbol to define the symbol used to print the rectangle.|
-| `8. Compare rectangles` | Adds a static method bigger_or_equal() to return the bigger rectangle based on area.|
-| `9. A square is a rectangle` | Adds a class method square() to return a new Rectangle instance where width and height are equal.|
+| `5. Geometry module` | Write an empty class BaseGeometry.|
+| `6. Improve Geometry` | Public instance method that raises an Exception with the message `area() is not implemented`.|
+| `7. Integer validator` | Create a class BaseGeometry with methods area(self) raising an exception `area() is not implemented` and integer_validator(self, name, value) ensuring value is a positive integer.|
+| `8. Rectangle` | Creates a Rectangle class that inherits from BaseGeometry with private attributes width and height, without getter or setter, and which must be positive integers validated by integer_validator .|
+| `9. Full rectangle` | Creates a Rectangle class that inherits from BaseGeometry with private width and height attributes, without getter or setter, validated as positive integers by integer_validator. Implements the area() method and makes print() and str() return the description [Rectangle] <width>/<height>.|
+| `10. Square #1` | Creates a Square class that inherits from Rectangle with a private attribute size, without getter or setter, validated as a positive integer by integer_validator, and implements the area() method.|
+| `11. ` | Creates a Square class that inherits from Rectangle with a private attribute size, without getter or setter, validated as a positive integer by integer_validator. Implements the area() method and makes print() and str() return the description [Square] <width>/<height>.|
 
 <p align="center">
   <img src="https://i.imgur.com/J1oVLId.jpeg" name="logo Holberton"/>
