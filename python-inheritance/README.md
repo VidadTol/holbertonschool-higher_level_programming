@@ -91,7 +91,7 @@ The first line of all your files should be exactly `#!/usr/bin/python3`
 | Filename | Description |
 | -------- | ----------- |
 | `0. Lookup` | Returns the list of available attributes and methods of an object. |
-| `1. Real definition of a rectangle` | Defines a class Rectangle with private instance attributes width and height, with validation. |
+| `1. My list` | Write a class MyList that inherits from list. |
 | `2. Area and Perimeter` | Adds public methods area() and perimeter() to calculate the rectangle's area and perimeter.|
 | `3. String representation` | Adds __str__() method to print the rectangle using the # character|
 | `4. Eval is magic` | Adds __repr__() method to return a string representation of the rectangle for recreation.|
