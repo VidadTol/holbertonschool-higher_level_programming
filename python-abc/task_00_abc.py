@@ -9,24 +9,28 @@ from abc import ABC, abstractmethod
 Define the Animal class, ensuring it inherits from ABC to mark it as abstract
 """
 
+
 class Animal(ABC):
     """
-    Abstract class Animal that requires subclasses to implement the sound method.
+    Abstract class Animal that requires subclasses to implement
+    the sound method.
     """
     @abstractmethod
     def sound(self):
         pass
+
 
 class Dog(Animal):
     """
     Dog is a subclass of Animal that implements the sound method.
     """
     def sound(self):
-        return("Bark")
+        return ("Bark")
+
 
 class Cat(Animal):
     """
     Cat is a subclass of Animal that implements the sound method.
     """
     def sound(self):
-        return("Meow")
+        return ("Meow")
