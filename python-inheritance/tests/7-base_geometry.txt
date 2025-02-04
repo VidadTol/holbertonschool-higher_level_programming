@@ -40,3 +40,12 @@ ValueError: age must be greater than 0
 Traceback (most recent call last):
 ...
 ValueError: height must be greater than 0
+
+Testing __doc__:
+>>> print(BaseGeometry.__doc__)
+Create a class BaseGeometry with a public method area that raises
+an exception with the message "area() is not implemented"
+and a method integer_validator that validates an integer
+
+>>> print(BaseGeometry.area.__doc__)
+None
