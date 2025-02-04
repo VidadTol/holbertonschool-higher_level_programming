@@ -43,9 +43,11 @@ ValueError: height must be greater than 0
 
 Testing __doc__:
 >>> print(BaseGeometry.__doc__)
-Create a class BaseGeometry with a public method area that raises
-an exception with the message "area() is not implemented"
-and a method integer_validator that validates an integer
+<BLANKLINE>
+    Create a class BaseGeometry with a public method area that raises
+    an exception with the message "area() is not implemented"
+    and a method integer_validator that validates an integer
+<BLANKLINE>
 
 >>> print(BaseGeometry.area.__doc__)
 None
