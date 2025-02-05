@@ -19,25 +19,39 @@ class Shape(ABC):
 
     @abstractmethod
     def area(self):
+        """
+        Calculate the area of the shape.
+        This method should be implemented by subclasses.
+        """
         pass
 
     @abstractmethod
     def perimeter(self):
+        """
+        Calculate the perimeter of the shape.
+        This method should be implemented by subclasses.
+        """
         pass
 
 
 class Circle(Shape):
+    """
+    Circle is a subclass of Shape that represents a circle.
+    """
     def __init__(self, radius):
         self.radius = radius
 
     def area(self):
-        return math.pi * (self.radius ** 2)
+        return math.pi * self.radius ** 2
 
     def perimeter(self):
         return 2 * math.pi * self.radius
 
 
 class Rectangle(Shape):
+    """
+    Rectangle is a subclass of Shape that represents a rectangle.
+    """
     def __init__(self, width, height):
         self.width = width
         self.height = height
