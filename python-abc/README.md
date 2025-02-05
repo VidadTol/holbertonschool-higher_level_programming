@@ -27,12 +27,11 @@ Welcome to this set of exercises aimed at honing your understanding and applicat
 | Filename | Objective |
 | -------- | ----------- |
 | `0. Abstract Animal Class and its Subclasses` | Create an abstract class named Animal using the ABC package with an abstract method called sound. Create two subclasses of Animal: Dog and Cat. Implement the sound method in each subclass to return the strings “Bark” and “Meow” respectively.|
-| `1. My list` | Write a class MyList that inherits from list. |
-| `2. Exact same object` | Write a function that returns True if the object is exactly an instance of the specified class ; otherwise False.|
-| `3. Same class or inherit from` | Write a function that returns True if the object is an instance of, or if the object is an instance of a class that inherited from, the specified class ; otherwise False.|
-| `4. Only sub class of` | Write a function that returns True if an object inherits from a specified class; otherwise False.|
-| `5. Geometry module` | Write an empty class BaseGeometry.|
-| `6. Improve Geometry` | Public instance method that raises an Exception with the message `area() is not implemented`.|
+| `1. Shapes, Interfaces, and Duck Typing` | Create an abstract class Shape with abstract methods area and perimeter, implement Circle and Rectangle inheriting from Shape, write a shape_info function to display their area and perimeter, and test this function with instances of Circle and Rectangle. |
+| `2. Extending the Python List with Notifications` | Create a class named VerboseList that extends the Python list class. This custom class should print a notification message every time an item is added (using the append or extend methods) or removed (using the remove or pop methods).|
+| `3. CountedIterator - Keeping Track of Iteration` | Create a class named CountedIterator that extends the built-in iterator obtained from the iter function. The CountedIterator should keep track of the number of items that have been iterated over. Specifically, you will need to override the __next__ method to increment a counter each time an item is fetched.|
+| `4. The Enigmatic FlyingFish - Exploring Multiple Inheritance` | Construct a FlyingFish class that inherits from both a Fish class and a Bird class. Within FlyingFish, override methods from both parents. The goal is to comprehend multiple inheritance and how Python determines method resolution order..|
+| `5. The Mystical Dragon - Mastering Mixins` | Design two mixin classes, SwimMixin and FlyMixin, each equipped with methods swim and fly respectively. Next, construct a class Dragon that inherits from both these mixins. Your aim is to show that a Dragon instance can both swim and fly.|
 
 
 <p align="center">
