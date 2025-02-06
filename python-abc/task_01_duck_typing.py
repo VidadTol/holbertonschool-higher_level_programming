@@ -39,7 +39,7 @@ class Circle(Shape):
     Circle is a subclass of Shape that represents a circle.
     """
     def __init__(self, radius):
-        self.radius = radius
+        self.radius = abs(radius)
 
     def area(self):
         return math.pi * self.radius ** 2
