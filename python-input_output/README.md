@@ -79,7 +79,7 @@ To access command line parameters in a Python script, use the sys.argv list from
 | `1. Write to a file` | Writes a string to a text file (UTF8) and returns the number of characters written. |
 | `2. Append to a file` | Write a function that appends a string at the end of a text file (UTF8) and returns the number of characters added.|
 | `3. To JSON string` | Write a function that returns the JSON representation of an object (string). |
-| `4. ` | |
+| `4. From JSON string to Object` | Write a function that returns an object (Python data structure) represented by a JSON string |
 | `5. ` | |
 | `6. ` | |
 | `7. ` | |
