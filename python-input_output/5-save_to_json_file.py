@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """
-
+This module defines a function save_to_json_file that writes
+an Object to a text file, using a JSON representation.
 """
 
 import json
