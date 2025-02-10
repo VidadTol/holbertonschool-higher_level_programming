@@ -2,7 +2,7 @@
 __pycache__/
 
 # Ignorer tous les fichiers se terminant par -main.py
-*_main.py
+*-main.py
 
 # Ignorer tous les fichiers se terminant par -main.py
 .txt
