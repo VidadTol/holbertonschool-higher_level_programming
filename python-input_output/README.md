@@ -87,7 +87,7 @@ To access command line parameters in a Python script, use the sys.argv list from
 | `9. Student to JSON` | Write a class Student that defines a student Public instance attributes first_name last_name age |
 | `10. Student to JSON with filter` | Create a Student class with attributes first_name, last_name, and age, which can be converted to a JSON dictionary with specific attributes or all, according to a provided list |
 | `11. Student to disk and reload` | Create a Student class with attributes first_name, last_name, and age, which can be converted to a JSON dictionary with specific or all attributes, and which allows its attributes to be reloaded from a JSON dictionary|
-| `12. ` | |
+| `12. Pascal's Triangle` | Create a function pascal_triangle(n) that generates a list of lists of integers representing Pascal's triangle of size n, without using Google or importing modules |
 
 
 <p align="center">
