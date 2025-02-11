@@ -4,5 +4,8 @@ __pycache__/
 # Ignorer tous les fichiers se terminant par -main.py
 *-main.py
 
-# Ignorer tous les fichiers se terminant par -main.py
-.txt
+# Ignorer tous les fichiers se terminant par .txt
+*.txt
+
+# Ignorer tous les fichiers se terminant par .json
+*.json
