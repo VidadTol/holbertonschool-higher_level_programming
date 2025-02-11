@@ -15,3 +15,6 @@ __pycache__/
 
 # Ignorer tous les fichiers se terminant par _json
 *_json
+
+# Ignorer tous les fichiers se terminant par _class*.py
+*_class*.py
