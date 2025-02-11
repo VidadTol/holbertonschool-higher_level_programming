@@ -84,9 +84,9 @@ To access command line parameters in a Python script, use the sys.argv list from
 | `6. Create object from a JSON file` | Write a function that creates an Object from a “JSON file”. |
 | `7. Load, add, save` | Write a script that adds all arguments to a Python list, and then save them to a file. |
 | `8. Class to JSON` | Write a function that returns the dictionary description with simple data structure (list, dictionary, string, integer and boolean) for JSON serialization of an object. |
-| `9. ` | |
-| `10. ` | |
-| `11. ` | |
+| `9. Student to JSON` | Write a class Student that defines a student Public instance attributes first_name last_name age |
+| `10. Student to JSON with filter` | Create a Student class with attributes first_name, last_name, and age, which can be converted to a JSON dictionary with specific attributes or all, according to a provided list |
+| `11. Student to disk and reload` | Create a Student class with attributes first_name, last_name, and age, which can be converted to a JSON dictionary with specific or all attributes, and which allows its attributes to be reloaded from a JSON dictionary|
 | `12. ` | |
 
 
