@@ -24,3 +24,6 @@ __pycache__/
 
 # Ignorer tous les fichiers se terminant par *.csv
 *.csv
+
+# Ignorer tous les fichiers se terminant par *_csv.py
+*_csv.py
