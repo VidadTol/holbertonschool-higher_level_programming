@@ -21,3 +21,6 @@ __pycache__/
 
 # Ignorer tous les fichiers se terminant par *.pkl
 *.pkl
+
+# Ignorer tous les fichiers se terminant par *.csv
+*.csv
