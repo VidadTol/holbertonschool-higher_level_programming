@@ -3,7 +3,7 @@
 </div>
 
 
-### Introduction:
+# Introduction:
 Welcome to our exploration of marshaling and serialization, two fundamental concepts in computer science that enable the efficient storage and transmission of data. In this programming project, you will delve deep into how data can be transformed and communicated between different parts of a system, or even across different systems. This project is designed to enhance your understanding and practical skills in handling data in real-world applications.
 
 ### What is Marshaling?
@@ -24,15 +24,11 @@ Serialization, closely related to marshaling, specifically involves converting d
 
 | Filename | Description |
 | -------- | ----------- |
-| `0. Read file` | Reads a text file (UTF8) and prints it to stdout. |
-| `1. Write to a file` | Writes a string to a text file (UTF8) and returns the number of characters written. |
-| `2. Append to a file` | Write a function that appends a string at the end of a text file (UTF8) and returns the number of characters added.|
-| `3. To JSON string` | Write a function that returns the JSON representation of an object (string). |
-| `4. From JSON string to Object` | Write a function that returns an object (Python data structure) represented by a JSON string. |
-| `5. Save Object to a file` | Write a function that writes an Object to a text file, using a JSON representation. |
-| `6. Create object from a JSON file` | Write a function that creates an Object from a “JSON file”. |
-| `7. Load, add, save` | Write a script that adds all arguments to a Python list, and then save them to a file. |
-| `8. Class to JSON` | Write a function that returns the dictionary description with simple data structure (list, dictionary, string, integer and boolean) for JSON serialization of an object. |
+| `0. Basic Serialization` | Create a basic serialization module to convert a Python dictionary to a JSON file and recreate the dictionary from the JSON file. |
+| `1. Pickling Custom Classes` | Create a CustomObject class with attributes name, age, is_student, and a display method to display its attributes, using the pickle module to serialize and deserialize objects. |
+| `2. Converting CSV Data to JSON Format` | Learn how to read data in CSV format and convert it to JSON using serialization techniques.|
+| `3. Serializing and Deserializing with XML` |The exercise consists of learning how to serialize and deserialize objects using XML instead of JSON, by defining two main functions (serialize_to_xml and deserialize_from_xml) to convert between a Python dictionary and an XML file. |
+
 
 
 
