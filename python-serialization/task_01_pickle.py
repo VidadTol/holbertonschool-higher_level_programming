@@ -49,7 +49,7 @@ class CustomObject:
             pickle.dump(self, file)
 
     @classmethod
-    def deserialize(cls, filname):
+    def deserialize(cls, filename):
         """
         Deserialize a CustomObject instance from a file.
 
@@ -60,5 +60,13 @@ class CustomObject:
         Returns:
             CustomObject: The deserialized CustomObject instance.
         """
-        with open(filname, 'rb') as file:
-            return pickle.load(file)
+        try:
+
+            with open(filename, 'rb') as file:
+                return pickle.load(file)
+        except FileNotFoundError:
+            print("File not found")
+            return None
+        except EOFError:
+            print("Reached end of file")
+            return None
