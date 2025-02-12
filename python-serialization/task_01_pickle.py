@@ -35,7 +35,7 @@ class CustomObject:
 
         print(f"Name: {self.name}")
         print(f"Age: {self.age}")
-        print(f"Is_Student: {self.is_student}")
+        print(f"Is Student: {self.is_student}")
 
     def serialize(self, filename):
         """
