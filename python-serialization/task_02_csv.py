@@ -5,8 +5,9 @@ filename as its parameter and writes the JSON data to data.json
 """
 
 
-import csv 
+import csv
 import json
+
 
 def convert_csv_to_json(csv_filename):
     data = []
@@ -23,8 +24,8 @@ def convert_csv_to_json(csv_filename):
         return True
 
     except FileNotFoundError:
-            print("File not found")
-            return False
+        print("File not found")
+        return False
 
 
 csv_filename = "data.csv"
