@@ -1,0 +1,20 @@
+# Ignorer tout le dossier __pycache__
+__pycache__/
+
+# Ignorer tous les fichiers se terminant par -main.py
+*-main.py
+
+# Ignorer tous les fichiers se terminant par *-main_*.py
+*-main_*.py
+
+# Ignorer tous les fichiers se terminant par .txt
+*.txt
+
+# Ignorer tous les fichiers se terminant par .json
+*.json
+
+# Ignorer tous les fichiers se terminant par _json
+*_json
+
+# Ignorer tous les fichiers se terminant par *_class*.py
+*_class*.py
