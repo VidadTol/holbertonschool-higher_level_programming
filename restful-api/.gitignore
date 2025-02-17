@@ -1,0 +1,8 @@
+# Ignorer tout le dossier __pycache__
+__pycache__/
+
+# Ignorer tous les fichiers se terminant par main_*.py
+main_*.py
+
+# Ignorer tous les fichiers se terminant par post.csv
+*.csv
