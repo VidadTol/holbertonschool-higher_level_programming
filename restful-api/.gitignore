@@ -6,3 +6,6 @@ main_*.py
 
 # Ignorer tous les fichiers se terminant par post.csv
 *.csv
+
+# Ignorer tous les fichiers qui se trouve dans myenv
+myenv/
