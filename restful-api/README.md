@@ -25,23 +25,11 @@ In the evolving world of software development, understanding how to communicate 
 | Filename | Description |
 | -------- | ----------- |
 | `0. Basics of HTTP/HTTPS` | Read resources to understand the differences between HTTP and HTTPS, explore the structure of HTTP requests and responses through browser developer tools, and create lists of common HTTP methods and HTTP status codes with their explanations and usage scenarios.|
-| `1. Consume data from an API using command line tools (curl)` | Installe curl sur ton système, confirme son installation avec curl --version, utilise-le pour récupérer le contenu de pages web et des données d'API, puis explore l'utilisation des en-têtes et des requêtes POST avec des options telles que -I et -X POST. |
-| `2. Consuming and processing data from an API using Python` | Creates a fetch_and_print_posts() function to retrieve and print post titles from JSONPlaceholder, and a fetch_and_save_posts() function to retrieve posts, structure them into dictionaries, and save them to a CSV file. |
+| `1. Consume data from an API using command line tools (curl)` | Installe curl sur ton système, confirme son installation avec curl --version, utilise-le pour récupérer le contenu de pages web et des données d'API, puis explore l'utilisation des en-têtes et des requêtes POST avec des options telles que -I et -X POST.|
+| `2. Consuming and processing data from an API using Python` | Creates a fetch_and_print_posts() function to retrieve and print post titles from JSONPlaceholder, and a fetch_and_save_posts() function to retrieve posts, structure them into dictionaries, and save them to a CSV file.|
 | `3.  Develop a simple API using Python with the `http.server` module` |Use the http.server module to create a basic HTTP server, implement the do_GET method to handle GET requests by responding with plain text or JSON data, add a /status endpoint to check the status of the API, and handle errors for undefined endpoints by returning a 404 Not Found response.|
-| `4. Only sub class of` | |
-| `5. Geometry module` | |
-| `6. Improve Geometry` | |
-| `7. Integer validator` | |
-
-
-
-
-
-
-
-
-
-
+| `4. Develop a Simple API using Python with Flask` | Install Flask, create a Flask web server, define endpoints to serve JSON data and handle POST requests, then test them with a browser or curl.|
+| `5. API Security and Authentication Techniques` | Installs Flask-HTTPAuth and Flask-JWT-Extended, configures basic authentication with @auth.login_required, configures JWT token-based authentication with @jwt_required(), and implements role-based access control to protect specific routes.|
 
 
 
