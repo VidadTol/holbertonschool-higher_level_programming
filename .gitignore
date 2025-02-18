@@ -1,0 +1,2 @@
+# Ignorer tous les fichiers se terminant par post.csv
+*.csv
