@@ -26,7 +26,7 @@ def home():
 
 
 @app.route("/data")
-def get_username():
+def list_users():
     """ respond with a username """
     return jsonify(list(users.keys()))
 
@@ -39,10 +39,9 @@ def status():
 
 @app.route("/users/<username>")
 def get_user(username):
-    """ respond with user information """
-    user_info = users.get(username)
-    if user_info:
-        return jsonify(user_info)
+    """ respond with user data """
+    if username in users:
+        return jsonify(users[username])
     else:
         return jsonify({"error": "User not found"}), 404
 
@@ -51,12 +50,11 @@ def get_user(username):
 def add_user():
     """ add a new user """
     user_data = request.get_json()
-    username = user_data.get("username")
 
-    if not username:
+    if not user_data or "username" not in user_data:
         return jsonify({"error": "Username is required"}), 400
     else:
-        users[username] = user_data
+        users[user_data["username"]] = user_data
         return jsonify({"message": "User added", "user": user_data}), 201
 
 
