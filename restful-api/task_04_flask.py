@@ -15,7 +15,6 @@ from flask import request
 
 
 app = Flask(__name__)
-
 users = {}
 
 
@@ -32,7 +31,7 @@ def list_users():
 
 
 @app.route("/status")
-def status():
+def send_status():
     """ respond with a status message """
     return "OK"
 
@@ -42,8 +41,7 @@ def get_user(username):
     """ respond with user data """
     if username in users:
         return jsonify(users[username])
-    else:
-        return jsonify({"error": "User not found"}), 404
+    return jsonify({"error": "User not found"}), 404
 
 
 @app.route("/add_user", methods=["POST"])
@@ -58,4 +56,4 @@ def add_user():
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
