@@ -16,39 +16,30 @@ from flask import request
 
 app = Flask(__name__)
 
-users = { 
-    "jane": {
-        "username": "jane",
-        "name": "Jane",
-        "age": 28,
-        "city": "Los Angeles"
-        },
-    "john": {
-        "username": "john",
-        "name": "John",
-        "age": 30,
-        "city": "New York"
-        }    
-    }
+users = {}
 
 
 @app.route("/")
 def home():
+    """ respond with a welcome message """
     return "Welcome to the Flask API"
 
 
 @app.route("/data")
 def get_username():
+    """ respond with a username """
     return jsonify(list(users.keys()))
 
 
 @app.route("/status")
 def status():
+    """ respond with a status message """
     return "ok"
 
 
 @app.route("/users/<username>")
 def get_user(username):
+    """ respond with user information """
     user_info = users.get(username)
     if user_info:
         return jsonify(user_info)
@@ -58,6 +49,7 @@ def get_user(username):
 
 @app.route("/add_user", methods=["POST"])
 def add_user():
+    """ add a new user """
     user_data = request.get_json()
     username = user_data.get("username")
 
