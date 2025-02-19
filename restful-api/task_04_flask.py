@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 
 """
 Simple Flask API
@@ -49,12 +49,12 @@ def get_user(username):
 @app.route("/add_user", methods=["POST"])
 def add_user():
     """ add a new user """
-    user_data = request.get_json()
+    data = request.get_json()
 
-    if not user_data or "username" not in user_data:
+    if not data or "username" not in data:
         return jsonify({"error": "Username is required"}), 400
-    users[user_data["username"]] = user_data
-    return jsonify({"message": "User added", "user": user_data}), 201
+    users[data["username"]] = data
+    return jsonify({"message": "User added", "user": data}), 201
 
 
 if __name__ == "__main__":
