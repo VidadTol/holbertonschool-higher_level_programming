@@ -34,7 +34,7 @@ def list_users():
 @app.route("/status")
 def status():
     """ respond with a status message """
-    return "ok"
+    return "OK"
 
 
 @app.route("/users/<username>")
