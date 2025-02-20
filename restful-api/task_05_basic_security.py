@@ -63,7 +63,7 @@ def admin_only():
     if log_user not in users:
         return jsonify({'error': 'User not found'}), 404
     
-    if users[log_user] != 'admin':
+    if users[log_user]["role"] != 'admin':
         return jsonify({'error': 'Admin access required'}), 403
     return jsonify({'message': 'Admin access granted'})
 
