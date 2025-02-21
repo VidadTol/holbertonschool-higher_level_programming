@@ -38,8 +38,8 @@ users = {
 
 @auth.verify_password
 def verify_password(username, password):
-    user = users.get(username)
-    if user and check_password_hash(user["password"], password):
+    user_data = users.get(username)
+    if user_data and check_password_hash(user_data["password"], password):
         return username
     return None
 
@@ -52,8 +52,8 @@ def basic_protected():
 
 @app.route("/login", methods=['POST'])
 def login():
-    username = request.json.get("username")
-    password = request.json.get("password")
+    username = request.json.get("username" None)
+    password = request.json.get("password" None)
     if not username or not password:
         return jsonify({"message": "Username and password required"}), 400
 
@@ -75,7 +75,7 @@ def jwt_protected():
 def admin_access():
     log_user = get_jwt_identity()
     user = users.get(log_user)
-    if user and user["role"] == "admin":
+    if user["role"] == "admin":
         return jsonify({"message": "Admin Access: Granted"})
     return jsonify({"error": "Admin access required"}), 403
 
@@ -106,4 +106,4 @@ def handle_needs_fresh_token_error(err):
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
