@@ -3,40 +3,23 @@
 </div>
 
 ## General
-`Database:` Collection of structured information.
-
-`Relational Database:` Stores and accesses related data points.
-
-`SQL:` Structured Query Language.
-
-`MySQL:` Open-source relational database management system.
-
-`Create a Database:` CREATE DATABASE database_name;
-
-`DDL and DML:`
-
-`DDL:` Data Definition Language.
-
+`Database:` Collection of structured information.  
+`Relational Database:` Stores and accesses related data points.  
+`SQL:` Structured Query Language.  
+`MySQL:` Open-source relational database management system.  
+`Create a Database:` CREATE DATABASE database_name;  
+`DDL and DML:`  
+`DDL:` Data Definition Language.  
 `DML:` Data Manipulation Language.
-
 `Create or Alter a Table:`
-
-`Create:` CREATE TABLE table_name (...);
-
-`Alter:` ALTER TABLE table_name ADD column_name datatype;
-
-`Select Data from a Table:` SELECT column1, column2, ... FROM table_name WHERE condition;
-
+`Create:` CREATE TABLE table_name (...);  
+`Alter:` ALTER TABLE table_name ADD column_name datatype;  
+`Select Data from a Table:` SELECT column1, column2, ... FROM table_name WHERE condition;  
 `Insert, Update, or Delete Data:`
-
-`Insert:` INSERT INTO table_name (...) VALUES (...);
-
-`Update:` UPDATE table_name SET ... WHERE condition;
-
-`Delete:` DELETE FROM table_name WHERE condition;
-
-`Subqueries:` Queries nested inside another query.
-
+`Insert:` INSERT INTO table_name (...) VALUES (...);  
+`Update:` UPDATE table_name SET ... WHERE condition;  
+`Delete:` DELETE FROM table_name WHERE condition;  
+`Subqueries:` Queries nested inside another query.  
 `MySQL Functions:` Perform operations on data.
 
 ## Requirements
