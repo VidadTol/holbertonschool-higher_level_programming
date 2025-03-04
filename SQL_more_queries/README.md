@@ -44,7 +44,31 @@ Subqueries are queries nested inside another query.
 
 | Filename | Description |
 | -------- | ----------- |
-| `` | |
+| `0. My privileges!` | Lists all privileges of the MySQL users user_0d_1 and user_0d_2 on your server (in localhost). |
+| `1. Root user` | Creates the MySQL server user user_0d_1. |
+| `2. Read user` | Creates the database hbtn_0d_2 and the user user_0d_2. |
+| `3. Always a name` | Creates the table force_name on your MySQL server. |
+| `4. ID can't be null` | Creates the table id_not_null on your MySQL server. |
+| `5. Unique ID` | Creates the table unique_id on your MySQL server. |
+| `6. States table` | Creates the database hbtn_0d_usa and the table states (in the database hbtn_0d_usa) on your MySQL server. |
+| `7. Cities table` | Creates the database hbtn_0d_usa and the table cities (in the database hbtn_0d_usa) on your MySQL server. |
+| `8. Cities of California` | Lists all the cities of California that can be found in the database hbtn_0d_usa. |
+| `` |  |
+| `` |  |
+| `` |  |
+| `` |  |
+| `` |  |
+| `` |  |
+| `` |  |
+| `` |  |
+| `` |  |
+| `` |  |
+| `` |  |
+| `` |  |
+| `` |  |
+| `` |  |
+| `` |  |
+
 
 
 
