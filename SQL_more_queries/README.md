@@ -53,24 +53,14 @@ Subqueries are queries nested inside another query.
 | `6. States table` | Creates the database hbtn_0d_usa and the table states (in the database hbtn_0d_usa) on your MySQL server. |
 | `7. Cities table` | Creates the database hbtn_0d_usa and the table cities (in the database hbtn_0d_usa) on your MySQL server. |
 | `8. Cities of California` | Lists all the cities of California that can be found in the database hbtn_0d_usa. |
-| `` |  |
-| `` |  |
-| `` |  |
-| `` |  |
-| `` |  |
-| `` |  |
-| `` |  |
-| `` |  |
-| `` |  |
-| `` |  |
-| `` |  |
-| `` |  |
-| `` |  |
-| `` |  |
-| `` |  |
-
-
-
+| `9. Cities by States` | Lists all cities contained in the database hbtn_0d_usa. |
+| `10. Genre ID by show` | Lists all shows contained in hbtn_0d_tvshows that have at least one genre linked. |
+| `11. Genre ID for all shows` | Lists all shows contained in the database hbtn_0d_tvshows. |
+| `12. No genre` | Lists all shows contained in hbtn_0d_tvshows without a genre linked. |
+| `13. Number of shows by genre` | Lists all genres from hbtn_0d_tvshows and displays the number of shows linked to each. |
+| `14. My genres` | Uses the hbtn_0d_tvshows database to lists all genres of the show Dexter. |
+| `15. Only Comedy` | Lists all Comedy shows in the database hbtn_0d_tvshows. |
+| `16. List shows and genres` | Lists all shows, and all genres linked to that show, from the database hbtn_0d_tvshows. |
 
 <p align="center">
   <img src="https://i.imgur.com/J1oVLId.jpeg" name="logo Holberton"/>
