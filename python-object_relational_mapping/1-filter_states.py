@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """
 lists all states with a name starting with N (upper N)
 from the database hbtn_0e_0_usa.
@@ -25,7 +25,8 @@ if __name__ == "__main__":
         cur = db.cursor()
 
         # Execute the SQL query to select all states ordered by id
-        cur.execute('SELECT * FROM states LIKE N% ORDER BY id ASC')
+        cur.execute("SELECT * FROM states \
+                    WHERE BINARY LIKE 'N%' ORDER BY id ASC")
 
         # Fetch all the rows from the executed query
         rows = cur.fetchall()
