@@ -26,7 +26,7 @@ if __name__ == "__main__":
 
         # Execute the SQL query to select all states ordered by id
         cur.execute("SELECT * FROM states \
-                    WHERE BINARY LIKE 'N%' ORDER BY id ASC")
+                    WHERE BINARY name LIKE 'N%' ORDER BY id ASC")
 
         # Fetch all the rows from the executed query
         rows = cur.fetchall()
