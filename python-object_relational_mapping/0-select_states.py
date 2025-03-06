@@ -1,5 +1,6 @@
-#!/usr/bin/python3
-"""List all states from hbtn_0e_0_usa, sorted by states.id in
+#!/usr/bin/env python3
+"""
+List all states from hbtn_0e_0_usa, sorted by states.id in
 ascending order, using MySQLdb, and accepting
 three arguments: username, password, and database name.
     """
@@ -18,6 +19,7 @@ if __name__ == "__main__":
             user=sys.argv[1],
             password=sys.argv[2],
             db=sys.argv[3],
+            charset="utf8",
             port=3306
             )
         # Create a cursor object to interact with the database
@@ -33,6 +35,8 @@ if __name__ == "__main__":
         for row in rows:
             print(row)
 
-            # Close the cursor and the database connection
+        # Close the cursor and the database connection
         cur.close()
         db.close()
+
+    list_states
