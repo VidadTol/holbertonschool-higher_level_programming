@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 """
 List all states from hbtn_0e_0_usa, sorted by states.id in
 ascending order, using MySQLdb, and accepting
@@ -39,4 +39,4 @@ if __name__ == "__main__":
         cur.close()
         db.close()
 
-    list_states
+    list_states()
