@@ -22,7 +22,7 @@ if __name__ == "__main__":
             )
     # Create a cursor object to interact with the database
     cur = db.cursor()
-
+    argument = sys.argv[4]
     # Execute the SQL query to list cities with their corresponding states
     cur.execute("SELECT cities.name \
                 FROM cities \
