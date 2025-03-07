@@ -1,2 +1,9 @@
 # ne pas tenir compte de myenv
-myenv
+.venv
+# ne pas tenir compte de __pycache__
+__pycache__
+# ne pas tenir compte des fichier .sql
+*.sql
+# ne pas tenir compte de ses fichiers
+6-model_state.py 
+test_mysql.py
