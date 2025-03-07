@@ -9,7 +9,7 @@ import MySQLdb
 
 
 if __name__ == "__main__":
-    """ Lists all states from the database hbtn_0e_0_usa
+    """ Lists all states from the database hbtn_0e_4_usa
         """
 
     # Connect to the MySQL database
