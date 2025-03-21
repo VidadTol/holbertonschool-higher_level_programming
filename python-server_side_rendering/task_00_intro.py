@@ -8,6 +8,7 @@ def generate_invitations(template, attendees):
     try:
         if not isinstance(template, str):
             raise TypeError('Error: template must be a string')
+
         if not isinstance(attendees, list) or not all(
                 isinstance(attendee, dict) for attendee in attendees):
             raise TypeError('Error: attendees must be a list of dictionaries')
@@ -29,7 +30,7 @@ def generate_invitations(template, attendees):
         return
 
     """ treatment of each paticipant"""
-    for i, attendee in enumerate(attendees):
+    for i, attendee in enumerate(attendees, start=1):
         invitation = template
 
         """ Replace placeholders with corresponding values, if empty N/A"""
@@ -43,12 +44,14 @@ def generate_invitations(template, attendees):
             "{event_location}", attendee.get("event_location", "N/A"))
 
         """Creating output files """
-        filename = f"output/invitation_{i + 1}.txt"
+        filename = f"output/invitation_{i}.txt"
 
         """ Check if file already exists"""
         if os.path.exists(filename):
             print(f"Error: the file '{filename}' already exists")
+            continue
 
+        """ Write the invitation to the file"""
         try:
             with open(filename, "w") as file:
                 file.write(invitation)
