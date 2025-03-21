@@ -8,39 +8,46 @@ def generate_invitations(template, attendees):
     try:
         if not isinstance(template, str):
             raise TypeError('Error: template must be a string')
-        if not isinstance(attendees, list) or not all(isinstance(attendee, dict) for attendee in attendees):
+        if not isinstance(attendees, list) or not all(
+                isinstance(attendee, dict) for attendee in attendees):
             raise TypeError('Error: attendees must be a list of dictionaries')
-    
+
     except TypeError as e:
         print("TypeError: {}".format(e))
         return
-    
+
     """ Handle Empty List"""
     try:
         if not template:
-            raise ValueError("Error: template is empty")
+            raise ValueError("template is empty")
       
         if not attendees:
             raise ValueError("Error: the participant list is empty")
-    
+
     except ValueError as e:
         print("ValueError: {}".format(e))
         return
-    
+
     """ treatment of each paticipant"""
     for i, attendee in enumerate(attendees):
         invitation = template
 
-        """ Replacement of reserved spaces """
-        invitation = invitation.replace("{name}", attendee.get("name", "N/A"))
-        invitation = invitation.replace("{event_title}", attendee.get("event_title", "N/A"))
-        invitation = invitation.replace("{event_date}", str(attendee.get("event_date", "N/A")))
-        invitation = invitation.replace("{event_location}", attendee.get("event_location", "N/A"))
+        """ Replace placeholders with corresponding values, if empty N/A"""
+        invitation = invitation.replace(
+            "{name}", attendee.get("name", "N/A"))
+        invitation = invitation.replace(
+            "{event_title}", attendee.get("event_title", "N/A"))
+        invitation = invitation.replace(
+            "{event_date}", attendee.get("event_date", "N/A"))
+        invitation = invitation.replace(
+            "{event_location}", attendee.get("event_location", "N/A"))
 
         """Creating output files """
         filename = f"output/invitation_{i + 1}.txt"
+
+        """ Check if file already exists"""
         if os.path.exists(filename):
-            print(f"file '{filename}' already exists")
+            print(f"Error: the file '{filename}' already exists")
 
         try:
             with open(filename, "w") as file:
