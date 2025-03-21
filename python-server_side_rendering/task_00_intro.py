@@ -28,42 +28,35 @@ def generate_invitations(template, attendees):
         return
     
     """ treatment of each paticipant"""
-    try:
-        os.makedirs("output", exist_ok=True)
-        for i, attendee in enumerate(attendees):
-            invitation = template
+    for i, attendee in enumerate(attendees):
+        invitation = template
 
-            """ Replacement of reserved spaces """
-            if "name" in attendee:
+        """ Replacement of reserved spaces """
+        if "name" in attendee:
                 invitation = invitation.replace("{name}", attendee["name"])
-            else:
+        else:
                 invitation = invitation.replace("{name}", "N/A")
 
-            if "event_title" in attendee:
+        if "event_title" in attendee:
                 invitation = invitation.replace("{event_title}", attendee["event_title"])
-            else:
+        else:
                 invitation = invitation.replace("{event_title}", "N/A")
 
-            if "event_date" in attendee:
+        if "event_date" in attendee:
                 invitation = invitation.replace("{event_date}", str(attendee["event_date"])) 
-            else:
+        else:
                 invitation = invitation.replace("{event_date}", "N/A")
 
-            if "event_location" in attendee:
+        if "event_location" in attendee:
                 invitation = invitation.replace("{event_location}", attendee["event_location"])
-            else:
+        else:
                 invitation = invitation.replace("{event_location}", "N/A")
 
-            """Creating output files """
-            filename = f"output/invitation_{i + 1}.txt"
-            if os.path.exists(filename):
-                print("file '{}' already exists".format(filename))
-            try:
-                with open(filename, "w") as file:
-                    file.write(invitation)
-            except OSError as e:
-                print(f"Error writing file {filename}: {e}")
-                return
-    except OSError as e:
-        print(f"OSError creating output directory: {e}")
-        return
+        """Creating output files """
+        filename = f"output/invitation_{i + 1}.txt"
+        if os.path.exists(filename):
+            print("file '{}' already exists".format(filename))
+
+        with open(filename, "w") as file:
+            file.write(invitation)
+            
