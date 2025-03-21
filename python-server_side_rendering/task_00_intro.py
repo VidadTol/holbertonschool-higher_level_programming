@@ -57,6 +57,8 @@ def generate_invitations(template, attendees):
         if os.path.exists(filename):
             print("file '{}' already exists".format(filename))
 
-        with open(filename, "w") as file:
-            file.write(invitation)
-            
+        try:
+            with open(filename, "w") as file:
+                file.write(invitation)
+        except Exception as e:
+            print(f"Error when writing file 'ouput/invitation_{i + 1}.txt': {e}")
