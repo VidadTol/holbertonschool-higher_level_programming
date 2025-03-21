@@ -20,7 +20,7 @@ def generate_invitations(template, attendees):
     try:
         if not template:
             raise ValueError("template is empty")
-      
+
         if not attendees:
             raise ValueError("Error: the participant list is empty")
 
