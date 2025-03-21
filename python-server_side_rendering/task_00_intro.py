@@ -30,7 +30,7 @@ def generate_invitations(template, attendees):
         return
 
     """ treatment of each paticipant"""
-    for i, attendee in enumerate(attendees, start=1):
+    for index, attendee in enumerate(attendees, start=1):
         invitation = template
 
         """ Replace placeholders with corresponding values, if empty N/A"""
@@ -39,12 +39,12 @@ def generate_invitations(template, attendees):
         invitation = invitation.replace(
             "{event_title}", attendee.get("event_title", "N/A"))
         invitation = invitation.replace(
-            "{event_date}", attendee.get("event_date", "N/A"))
+            "{event_date}", str(attendee.get("event_date", "N/A")))
         invitation = invitation.replace(
             "{event_location}", attendee.get("event_location", "N/A"))
 
         """Creating output files """
-        filename = f"output/invitation_{i}.txt"
+        filename = f"output_{index}.txt"
 
         """ Check if file already exists"""
         if os.path.exists(filename):
@@ -53,7 +53,8 @@ def generate_invitations(template, attendees):
 
         """ Write the invitation to the file"""
         try:
-            with open(filename, "w") as file:
+            with open(filename, "w", encoding="utf-8") as file:
                 file.write(invitation)
+
         except Exception as e:
             print(f"Error when writing file '{filename}': {e}")
