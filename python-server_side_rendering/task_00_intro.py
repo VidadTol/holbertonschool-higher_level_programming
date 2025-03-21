@@ -9,7 +9,7 @@ def generate_invitations(template, attendees):
         if not isinstance(template, str):
             raise TypeError('Error: template must be a string')
         if not isinstance(attendees, list) or not all(isinstance(attendee, dict) for attendee in attendees):
-            raise TypeError('Error: attendees must be a list of dictionnaries')
+            raise TypeError('Error: attendees must be a list of dictionaries')
     
     except TypeError as e:
         print("TypeError: {}".format(e))
@@ -32,33 +32,18 @@ def generate_invitations(template, attendees):
         invitation = template
 
         """ Replacement of reserved spaces """
-        if "name" in attendee:
-                invitation = invitation.replace("{name}", attendee["name"])
-        else:
-                invitation = invitation.replace("{name}", "N/A")
-
-        if "event_title" in attendee:
-                invitation = invitation.replace("{event_title}", attendee["event_title"])
-        else:
-                invitation = invitation.replace("{event_title}", "N/A")
-
-        if "event_date" in attendee:
-                invitation = invitation.replace("{event_date}", str(attendee["event_date"])) 
-        else:
-                invitation = invitation.replace("{event_date}", "N/A")
-
-        if "event_location" in attendee:
-                invitation = invitation.replace("{event_location}", attendee["event_location"])
-        else:
-                invitation = invitation.replace("{event_location}", "N/A")
+        invitation = invitation.replace("{name}", attendee.get("name", "N/A"))
+        invitation = invitation.replace("{event_title}", attendee.get("event_title", "N/A"))
+        invitation = invitation.replace("{event_date}", str(attendee.get("event_date", "N/A")))
+        invitation = invitation.replace("{event_location}", attendee.get("event_location", "N/A"))
 
         """Creating output files """
         filename = f"output/invitation_{i + 1}.txt"
         if os.path.exists(filename):
-            print("file '{}' already exists".format(filename))
+            print(f"file '{filename}' already exists")
 
         try:
             with open(filename, "w") as file:
                 file.write(invitation)
         except Exception as e:
-            print(f"Error when writing file 'ouput/invitation_{i + 1}.txt': {e}")
+            print(f"Error when writing file '{filename}': {e}")
