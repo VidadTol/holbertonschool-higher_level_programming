@@ -17,6 +17,20 @@ This repository collects a variety of projects and exercises completed as part o
 - [Python - More Data Structures: Set, Dictionary](#python---more-data-structures-set-dictionary)
 - [Python - Exceptions](#python---exceptions)
 - [Python - Test-Driven Development](#python---test-driven-development)
+- [JavaScript - DOM Manipulation](#javascript---dom-manipulation)
+- [Fetching Movie Titles](#fetching-movie-titles)
+- [Fetching Translations with Fetch API](#fetching-translations-with-fetch-api)
+- [Python - ABC](#python---abc)
+- [Python - Classes](#python---classes)
+- [Python - Inheritance](#python---inheritance)
+- [Python - Input/Output](#python---inputoutput)
+- [Python - More Classes](#python---more-classes)
+- [Python - Object Relational Mapping](#python---object-relational-mapping)
+- [Python - Serialization](#python---serialization)
+- [Python - Server Side Rendering](#python---server-side-rendering)
+- [Restful API](#restful-api)
+- [SQL Introduction](#sql-introduction)
+- [SQL More Queries](#sql-more-queries)
 
 ## Requirements
 
@@ -53,10 +67,61 @@ This project focuses on error handling using Python exceptions, including the us
 This project introduces Test-Driven Development (TDD), using the `unittest` module in Python to ensure code quality.
 - [Link to directory](./python-test_driven_development)
 
+### JavaScript - DOM Manipulation
+Learn how to dynamically interact with HTML using JavaScript by manipulating elements, classes, and styles in the DOM.
+- [Link to directory](./javascript---dom-manipulation)
+
+### Python - ABC
+This project introduces Abstract Base Classes (ABC) in Python and how they are used to define interfaces for object-oriented programming.
+- [Link to directory](./python-abc)
+
+### Python - Classes
+Explores the concept of classes in Python, including attributes, methods, and instantiation.
+- [Link to directory](./python-classes)
+
+### Python - Inheritance
+Focuses on object-oriented programming, specifically how inheritance works in Python to reuse and extend functionality.
+- [Link to directory](./python-inheritance)
+
+### Python - Input/Output
+Covers reading from and writing to files in Python, as well as handling various input/output operations.
+- [Link to directory](./python-input_output)
+
+### Python - More Classes
+A deeper dive into classes and object-oriented programming concepts, such as class methods and static methods.
+- [Link to directory](./python-more_classes)
+
+### Python - Object Relational Mapping
+This project explores how to map objects to relational databases using Object Relational Mapping (ORM) techniques in Python.
+- [Link to directory](./python-object_relational_mapping)
+
+### Python - Serialization
+Introduces the concept of serializing and deserializing objects in Python using modules like `pickle` and `json`.
+- [Link to directory](./python-serialization)
+
+### Python - Server Side Rendering
+Focuses on using Python for server-side rendering in web applications, generating dynamic content for the client.
+- [Link to directory](./python-server_side_rendering)
+
+### Restful API
+An introduction to building and consuming RESTful APIs using Python and other tools.
+- [Link to directory](./restful-api)
+
+### SQL Introduction
+Covers the basics of SQL (Structured Query Language), including creating, reading, updating, and deleting data in databases.
+- [Link to directory](./SQL_introduction)
+
+### SQL More Queries
+Explores more advanced SQL queries and concepts, such as joins, subqueries, and indexes.
+- [Link to directory](./SQL_more_queries)
+
+<br>
 
 ## Author 
 
 - **David Tolza** - [VidadTol](https://github.com/VidadTol)
+
+<br>
 
 <p align="center">
   <img src="https://i.imgur.com/J1oVLId.jpeg" name="logo Holberton"/>
