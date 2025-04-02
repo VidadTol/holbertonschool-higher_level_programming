@@ -69,7 +69,7 @@ This project introduces Test-Driven Development (TDD), using the `unittest` modu
 
 ### JavaScript - DOM Manipulation
 Learn how to dynamically interact with HTML using JavaScript by manipulating elements, classes, and styles in the DOM.
-- [Link to directory](./javascript---dom-manipulation)
+- [Link to directory](./javascript-dom-manipulation)
 
 ### Python - ABC
 This project introduces Abstract Base Classes (ABC) in Python and how they are used to define interfaces for object-oriented programming.
