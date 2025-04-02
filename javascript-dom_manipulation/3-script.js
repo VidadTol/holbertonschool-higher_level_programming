@@ -1,4 +1,4 @@
-document.querySelector('#toggle_header').addEventListener('click', function () {
+document.querySelector('#toggle_header').addEventListener('click', () => {
   const header = document.querySelector('header');
   if (header.classList.contains('red')) {
     header.classList.replace('red', 'green');
