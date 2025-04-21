@@ -18,8 +18,6 @@ This repository collects a variety of projects and exercises completed as part o
 - [Python - Exceptions](#python---exceptions)
 - [Python - Test-Driven Development](#python---test-driven-development)
 - [JavaScript - DOM Manipulation](#javascript---dom-manipulation)
-- [Fetching Movie Titles](#fetching-movie-titles)
-- [Fetching Translations with Fetch API](#fetching-translations-with-fetch-api)
 - [Python - ABC](#python---abc)
 - [Python - Classes](#python---classes)
 - [Python - Inheritance](#python---inheritance)
@@ -69,7 +67,7 @@ This project introduces Test-Driven Development (TDD), using the `unittest` modu
 
 ### JavaScript - DOM Manipulation
 Learn how to dynamically interact with HTML using JavaScript by manipulating elements, classes, and styles in the DOM.
-- [Link to directory](./javascript---dom-manipulation)
+- [Link to directory](./javascript-dom_manipulation)
 
 ### Python - ABC
 This project introduces Abstract Base Classes (ABC) in Python and how they are used to define interfaces for object-oriented programming.
