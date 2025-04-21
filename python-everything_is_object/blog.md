@@ -1,13 +1,16 @@
 
 <div align= "center">
-  <h1>python-everything_is_object</h1>
+  <h1>PYTHON EVERYTHING IS OBJECT</h1>
 </div>
 
-Mutable and Immutable Objects and Their Implications
-Exploring the fundamental concepts of Python's object model.
+<div align= "center">
+  <h>Exploring the fundamental concepts of Python's object model
+  
+  Mutable and Immutable Objects and Their Implications</h1>
+</div>
 
 <p align="center">
-  <img src="r_208403_QPSN8.jpg" name="image"/>
+  <img src="r_208403_QPSN8.jpg" alt="image d'un chat" width="300" height="300"/>
 </p>
 
 ## Introduction
