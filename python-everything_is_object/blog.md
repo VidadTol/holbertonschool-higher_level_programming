@@ -36,6 +36,7 @@ Mutable objects are those whose contents can be modified after their creation. L
 ***As shown, the memory address remains unchanged when we modify the list a. This mutability allows for flexible and efficient data manipulation.***
 
 ## Immutable Objects
+
 Immutable objects, on the other hand, cannot be modified once created. Examples: tuples, strings, and numbers:
 
 `b = (1, 2)`   
@@ -46,6 +47,7 @@ Immutable objects, on the other hand, cannot be modified once created. Examples:
 ***Any modification results in the creation of a new object, leaving the original unchanged. This characteristic guarantees immutability.***
 
 `Why is this important ?`   
+
 The distinction between mutable and immutable objects fundamentally influences how Python handles them. Mutable objects allow in-place updates without recreating the object, while immutable objects ensure consistency and safety, especially in concurrent programming. Furthermore, Python uses this distinction for optimization purposes:
 
 ***`Immutable objects, such as integers, are sometimes reused for efficiency reasons.`***
@@ -56,7 +58,7 @@ The distinction between mutable and immutable objects fundamentally influences h
 Python passes arguments to functions as references. However, the behavior differs depending on the mutability:
 
 `Mutable objects:`    
-_Changes made to the function affect the original object._
+- _Changes made to the function affect the original object._
 
 `def modify_list(lst):`   
 `lst.append(4)`
@@ -66,7 +68,7 @@ _Changes made to the function affect the original object._
 `print(my_list)` # Output: [1, 2, 3, 4]   
 
 `Immutable objects:`   
-_Since they cannot be modified, functions create new objects when they attempt modifications._
+- _Since they cannot be modified, functions create new objects when they attempt modifications._
 
 `def modify_tuple(tpl):`   
 `tpl += (4,)` 
