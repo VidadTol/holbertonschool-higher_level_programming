@@ -2,15 +2,11 @@
   <img src="definition-outil-de-developpement-web.webp" alt="image de code sur pc" width="500" height="300"/>
 </p>
 
-<div align= "center">
-  <h1>PYTHON EVERYTHING IS OBJECT</h1>
-</div>
+<div align="center"> <h1>PYTHON EVERYTHING IS OBJECT</h1> </div>
 
-<div align= "center">
-  <h>Exploring the fundamental concepts of Python's object model
-  
-  Mutable and Immutable Objects and Their Implications</h1>
-</div>
+<div align="center"> <h>Exploring the fundamental concepts of Python's object model
+
+Mutable and Immutable Objects and Their Implications</h1> </div>
 
 ### Introduction
 
@@ -67,8 +63,8 @@ Changes made to the function affect the original object.
 def modify_list(lst):  
  lst.append(4)
 
-my*list = [1, 2, 3]  
-modify_list(my_list)  
+my\*list = [1, 2, 3]  
+modify*list(my_list)  
 print(my_list) *# [1, 2, 3, 4]\_
 
 [1, 2, 3, 4] : La liste my_list est modifiée directement dans la fonction.
@@ -79,8 +75,8 @@ Since they cannot be modified, functions create new objects when they attempt mo
 def modify_tuple(tpl):  
  tpl += (4,)
 
-my*tuple = (1, 2, 3)  
-modify_tuple(my_tuple)  
+my\*tuple = (1, 2, 3)  
+modify*tuple(my_tuple)  
 print(my_tuple) *# (1, 2, 3)\_
 
 (1, 2, 3) : Le tuple original reste inchangé, même après l'appel de la fonction.
